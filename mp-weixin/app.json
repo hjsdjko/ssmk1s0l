@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/kehu/list",
+    "pages/kehu/add-or-update",
+    "pages/kehu/detail",
+    "pages/gonggaoleixing/list",
+    "pages/gonggaoleixing/add-or-update",
+    "pages/gonggaoleixing/detail",
+    "pages/shequgonggao/list",
+    "pages/shequgonggao/add-or-update",
+    "pages/shequgonggao/detail",
+    "pages/fankuixinxi/list",
+    "pages/fankuixinxi/add-or-update",
+    "pages/fankuixinxi/detail",
+    "pages/shenghuojiaofeichu/list",
+    "pages/shenghuojiaofeichu/add-or-update",
+    "pages/shenghuojiaofeichu/detail",
+    "pages/shenghuojiaofei/list",
+    "pages/shenghuojiaofei/add-or-update",
+    "pages/shenghuojiaofei/detail",
+    "pages/wupinfenlei/list",
+    "pages/wupinfenlei/add-or-update",
+    "pages/wupinfenlei/detail",
+    "pages/ershouwupin/list",
+    "pages/ershouwupin/add-or-update",
+    "pages/ershouwupin/detail",
+    "pages/ershouwupinhuishou/list",
+    "pages/ershouwupinhuishou/add-or-update",
+    "pages/ershouwupinhuishou/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "pages/pay-confirm/pay-confirm",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "生活小助手微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#F7D3BA",
+    "borderStyle": "white",
+    "backgroundColor": "#A6AA9C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shequgonggao/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "社区公告"
+      },
+      {
+        "pagePath": "pages/ershouwupin/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "二手物品"
+      },
+      {
+        "pagePath": "pages/exampaperlist/list",
+        "iconPath": "static/tabs/exam.png",
+        "selectedIconPath": "static/tabs/exam_act.png",
+        "text": "考试"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
